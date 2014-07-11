@@ -7,20 +7,34 @@ border-radius: 0 !important;
 }
 
 .navbar-default {
-	background-color: #5FBA9D !important;
-	border-color:  #5FBA9D !important;
+	background-color: #4BA656 !important;
+	border-color:  #4BA656 !important;
+}
+
+.form-group {
+	margin-top: 0% !important;
+    margin-bottom: 5% !important;
+    margin-right: 25% !important;
+    margin-left: 25% !important;
 }
 
 .form-control{
-		border: 0px solid #dddddd !important;
-		background-color: #E55939 !important;
+	  border: 0px solid #dddddd !important;
+	  background-color: white !important;
+	 -khtml-opacity:.95; 
+	 -moz-opacity:.95; 
+	 -ms-filter:”alpha(opacity=95)”;
+	  filter:alpha(opacity=95);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.95);
+	  opacity:.95; 
+
 }
 
 .btn-default {
-	color: #5FBA9D;
-	background-color: #5FBA9D !important;
+	color: #4BA656;
+	background-color: #4BA656 !important;
 	border: 1px solid #dddddd !important;
-	border-color: #5FBA9D !important;
+	border-color: #4BA656 !important;
 }
 
 .list-group-item {
@@ -29,13 +43,17 @@ border-radius: 0 !important;
 
 .list-group-item {
 	background-color: #F9F5F4 !important;
+	-khtml-opacity:.85; 
+	 -moz-opacity:.85; 
+	 -ms-filter:”alpha(opacity=85)”;
+	  filter:alpha(opacity=85);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
+	  opacity:.85; 
 }
-
 
 .list-group {
     margin-top: 0% !important;
-    margin-bottom: 10% !important;
-    margin-right: 0% !important;
-    margin-left: 10% !important;
+    margin-bottom: 4px !important;
+    margin-right: 25% !important;
+    margin-left: 25% !important;
 }
-
