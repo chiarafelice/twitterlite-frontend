@@ -3,7 +3,7 @@ var usernameQS = loca.replace(/%22/g,"");
 var username = usernameQS.split("=");
 
 if(username[1]!=null){
-$.get( "http://localhost:8080/twitterlite-ws/messages/user?user="+username[1], function( data ) {
+$.get( "http://localhost:8080/twitterlite-ws/messages/user?user="+username[1]"offset=0&limit=10", function( data ) {
  console.log(data);
 	for (i = 0; i < data.length; i++) { 
 	//	console.log();
