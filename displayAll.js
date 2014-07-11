@@ -1,14 +1,6 @@
-var loca = location.search;
-var usernameQS = loca.replace(/%22/g,"");
-var username = usernameQS.split("=");
-
-if(username[1]!=null){
-$.get( "http://localhost:8080/twitterlite-ws/messages/user?user="+username[1]"offset=0&limit=10", function( data ) {
+$.get( "http://localhost:8080/twitterlite-ws/messages?offset=0&limit=22", function( data ) {
  console.log(data);
-	for (i = 0; i < data.length; i++) { 
-	//	console.log();
-		//console.log();
-		
+	for (i = 0; i < data.length; i++) { 		
 		var parentDiv = document.getElementById("content");
 		
 		var container = document.createElement("div");
@@ -36,8 +28,6 @@ $.get( "http://localhost:8080/twitterlite-ws/messages/user?user="+username[1]"of
 		console.log(container);
 	}
 });
-}else{
-window.location="error.html";
-}
+
 
 
