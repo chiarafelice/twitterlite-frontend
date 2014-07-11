@@ -1,0 +1,32 @@
+body {
+	background-color: #2A1D24 !important; 
+}
+
+.navbar {
+border-radius: 0 !important;
+}
+
+.navbar-default {
+	background-color: #5FBA9D !important;
+	border-color:  #5FBA9D !important;
+}
+
+.form-control{
+		border: 0px solid #dddddd !important;
+		background-color: #E55939 !important;
+}
+
+.btn-default {
+	color: #5FBA9D;
+	background-color: #5FBA9D !important;
+	border: 1px solid #dddddd !important;
+	border-color: #5FBA9D !important;
+}
+
+.list-group-item {
+	border: 0px solid #dddddd !important;
+}
+
+.list-group-item {
+	background-color: #F9F5F4 !important;
+}
