@@ -30,3 +30,12 @@ border-radius: 0 !important;
 .list-group-item {
 	background-color: #F9F5F4 !important;
 }
+
+
+.list-group {
+    margin-top: 0% !important;
+    margin-bottom: 10% !important;
+    margin-right: 0% !important;
+    margin-left: 10% !important;
+}
+
