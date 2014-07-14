@@ -1,5 +1,9 @@
-body {
+﻿body {
 	background-color: #2A1D24 !important; 
+	background:url(ix.jpg),url(ix.jpg);
+	background-position:left top,right top;
+	background-repeat: no-repeat;
+	background-size: 24%;
 }
 
 .navbar {
@@ -10,6 +14,7 @@ border-radius: 0 !important;
 	background-color: #4BA656 !important;
 	border-color:  #4BA656 !important;
 }
+
 
 .form-group {
 	margin-top: 0% !important;
