@@ -12,7 +12,9 @@ url = "http://localhost:8080/twitterlite-ws/messages/hashtags?hashtags="+query[1
 window.location="error.html";
 }
 $.get(url, function( data ) {
- console.log(data);
+
+
+
 	for (i = 0; i < data.length; i++) { 
 	//	console.log();
 		
