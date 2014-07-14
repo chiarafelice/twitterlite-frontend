@@ -13,7 +13,6 @@ $.get( "http://localhost:8080/twitterlite-ws/messages?offset=0&limit=22", functi
 		p.setAttribute("class","list-group-item-text");
 
     	var url = "content.html?user=%22"+data[i].username +"%22";
-
     	p.innerHTML = "<a href=" + url + ">" + "@"+ data[i].username + " </a>";
 
 		
@@ -25,6 +24,7 @@ $.get( "http://localhost:8080/twitterlite-ws/messages?offset=0&limit=22", functi
 		var arr=[];
 
 		var tweet = "";
+
 
 		$.each(tagslistarr,function(i,val){
 		    if(tagslistarr[i].indexOf('#') == 0){
